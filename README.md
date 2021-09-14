@@ -1,27 +1,29 @@
 # kickstart-GREP
 InDesign script to automate a standard GREP paragraph style with user-defined values.
 
-/* *********************** */
-/* Projekt: Absatzformat mit benötigten GREP erstellen */
-/* Datei: kickstartGREP_custom.js */
-/* Entwickler: Nicolas Nater, Topix AG, topix.ch */
-/* *********************** */
+***********************
+Projekt: Absatzformat mit benötigten GREP erstellen
 
-/* *********************** */
-/* 1. INSTALLATION */
-/* *********************** */
+Datei: kickstartGREP_custom.js
+
+Entwickler: Nicolas Nater, Topix AG, topix.ch
+***********************
+
+***********************
+1. INSTALLATION
+***********************
 
 Die Skript-Palette wird über das Fenster => Hilfsprogramme => Skripte aufgerufen. Mit einem Rechtsklick auf den Ordner «Benutzer» erscheint die Option «Im Finder anzeigen». Diese verweist auf ein Verzeichnis in der User-Library. Die Skripts, die im Ordner «Scripts Panel» abgelegt werden, werden künftig im Ordner «Benutzer» in der Skripts-Palette angezeigt.
 
-/* *********************** */
-/* 2. FUNKTIONALITÄT */
-/* *********************** */
+***********************
+2. FUNKTIONALITÄT
+***********************
 
 Das Skript erfragt über ein Eingabefeld die gewünschten mikrotypografischen Korrekturen. Es wird ein Absatzformat «_Master_GREP» mit der im Dokument festgelegten Schrift und Spracheinstellung angelegt. Basierend auf den Angaben aus dem Eingabefeld werden in diesem Absatzformat GREP-Stile und die dazu passenden Zeichenformate angelegt. Danach wird, ebenfalls basierend auf den Eingaben, ein Textfeld erzeugt und mit Beispieltext gefüllt, sodass die angewendete Mikrotypografie kontrolliert werden kann.
 
-/* *********************** */
-/* 3. GREPs */
-/* *********************** */
+***********************
+3. GREPs
+***********************
 
 Spatium bei Interpunktionen:
 .(?=[!?;:\»\›\)\]\}])
